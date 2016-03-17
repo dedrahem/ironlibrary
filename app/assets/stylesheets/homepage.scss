@@ -1,3 +1,84 @@
 // Place all the styles related to the homepage controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+// styles related to the homepage controller here.
+
+body {
+  background-color: rgb(154,220,205);
+}
+
+// HEADER for the nav header see application.html
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: rgb(28,66,146);
+  padding: 20px;
+   a {
+    flex: 1;
+    margin: 0 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+      color: rgb(239,86,39);
+    }
+  }
+}
+// h1 container dedicated to the IRONLIBRARY heading
+h1 {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+border-radius: 12px 12px 12px 12px;
+font-family: 'Fredoka One', cursive;
+font-size: 26px;
+color: rgb(151,112,54);
+font-weight: bolder;
+padding: 2px;
+background-color: #ddedec;
+}
+// this wrapper is for the CONTAINER of UPDATE
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 0px 0px 0px 0px;
+  height: 28px;
+  margin: -27px 0px 0px 0px;
+  color: rgb(28,66,146);
+  background-color: #ddedec;
+}
+// DATEwrapper is the sentence p for date inside of wrapper
+.datewrapper {
+  position:relative;
+  margin: -6px 0px 0px 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+  padding: 0px;
+}
+
+
+.listbooks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  background-color: #ddedec;
+  border-radius: 0px 0px 12px 12px;
+}
+// THIS !! THIS is for the LINK to BOOKS its a button !
+.btn {
+  color: rgb(239,86,39);
+  text-decoration: none;
+}
