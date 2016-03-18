@@ -1,0 +1,45 @@
+scratchpad
+
+, book.photo_url:  Rails.root + 'app/assets/images/rubywiz.png'
+
+, book.photo_url: Rails.root + 'app/assets/images/javaforkids.png'
+
+, book.photo_url: Rails.root + 'app/assets/images/agilerails.jpg'
+
+
+
+<div class="image">
+        <%= image_tag "products/#{inventory.img_file}.jpg" %>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+if Book.count == 0
+  Book.create title: 'Agile Web Development with Rails 4 (Facets of Ruby) 1st Edition', price: '28.71', author_id: sam.id, book.photo_url=
+
+'http://ecx.images-amazon.com/images/I/51ETr-3MB1L._SX396_BO1,204,203,200_.jpg'
+
+
+
+
+  Book.create title: 'JavaScript for Kids A Playful Introduction to Programming', price: '25.58', author_id: nick.id, book.photo_url=
+
+'https://www.nostarch.com/sites/default/files/imagecache/product_main_page/jsfk_cover-front_final.png'
+
+
+
+
+  Book.create title: 'Ruby Wizardry An Introduction to Programming for Kids Paperback', price: '23.08', author_id: eric.id, book.photo_url=
+
+'https://www.nostarch.com/sites/default/files/imagecache/product_full/rubyWiz_frontcover.png'
+
+
+end

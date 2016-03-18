@@ -38,7 +38,8 @@ class BooksController < ApplicationController
     @book.title = params[:book][:title]
     @book.author_id = params[:book][:author_id]
     @book.price = params[:book][:price]
-
+    @book.photo = params[:book][:photo]
+    
     # save it
     if @book.save
       # redirect to "/books"

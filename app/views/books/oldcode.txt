@@ -1,0 +1,3 @@
+<div class="form-group">
+  <%= f.label :photo_id %>
+  <%= f.input :photo, as: :file%>
