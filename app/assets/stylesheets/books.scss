@@ -2,3 +2,32 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 // books controller.
+
+// formats table header for Book Title Author
+th {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+
+td {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: black;
+}
+a {
+  text-decoration: none;
+  font-family: 'Fredoka One', cursive;
+  font-size: 18px;
+  font-weight: lighter;
+  color: rgb(239,86,39);
+}
+
+.form-group {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: black;
+}

@@ -24,7 +24,9 @@
           <%= book.author.first_name %> <%= book.author.last_name %>
         </td>
         <td>
+          <div class="bookndx">
           <%= link_to "View Details", book_path(id: book.id) %>
+        </div>
         </td>
       </tr>
     <% end %>
