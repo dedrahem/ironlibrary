@@ -36,11 +36,11 @@ flex-direction: row;
 align-items: center;
 justify-content: center;
 border-radius: 12px 12px 12px 12px;
-font-family: 'Fredoka One', cursive;
+font-family: 'Fredoka One', sans-serif;
 font-size: 26px;
-color: rgb(151,112,54);
+color: rgb(101,20,29);
 font-weight: bolder;
-padding: 2px;
+padding: 6px 0px 0px 0px;
 background-color: rgb(18,204,236);
 }
 // this wrapper is for the CONTAINER of UPDATE
@@ -64,7 +64,8 @@ background-color: rgb(18,204,236);
   padding: 0px;
 }
 
-// this is the box
+// this is the box for List Books on main page
+// don't change the color, it's the background
 .listbooks {
   display: flex;
   flex-direction: row;
@@ -78,7 +79,9 @@ background-color: rgb(18,204,236);
   border-radius: 0px 0px 12px 12px;
 }
 // THIS !! THIS is for the LINK to BOOKS its a button !
+// this changes styling for that text AND !!
+// AND all other update button type items incl forms !
 .btn {
-  color: rgb(65,100,100);
+  color: rgb(226,50,54);
   text-decoration: none;
 }

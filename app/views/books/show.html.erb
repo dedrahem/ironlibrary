@@ -1,8 +1,6 @@
 <h1><%= @book.title %><p><%='-:-'%></p><small><%= @book.author.first_name %> <%= @book.author.last_name %></small></h1>
 <div class = "lonecontainer">
-<div class = "loneimage">
-<%= image_tag attachment_url(@book, :photo, :fill, 500, 625, format: "jpg") %>
-</div>
+  <%= image_tag attachment_url(@book, :photo, :fill, 500, 625, format: "jpg") %>
 </div>
 <%= link_to "Edit", edit_book_path(id: @book.id), class: "btn btn-default"%>
 <%= link_to "Delete", book_path(id: @book.id), method: :delete, class: "btn btn-danger", data: {confirm: "Are you sure you want to delete?"}%>

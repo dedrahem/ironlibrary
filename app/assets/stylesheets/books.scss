@@ -17,12 +17,14 @@ td {
   font-weight: normal;
   color: black;
 }
+
+// this changes the appearance of text in View Details
 a {
   text-decoration: none;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Fredoka One', sans-serif;
   font-size: 18px;
-  font-weight: lighter;
-  color: rgb(239,86,39);
+  font-weight: bold;
+  color: rgb(101,20,29);
 }
 
 .form-group {
@@ -39,16 +41,16 @@ a {
   justify-content: center;
   width: auto;
   height: auto;
+  border-width: 2px;
+  border-color: gray;
 }
 
-.loneimage img{
-  width: auto;
-  height: auto;
-  border: 1px;
-  border-color: gray;
+img{
+  width: 400px;
+  height: 510px;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  padding: 2px 2px 2px 2px;
+  padding: 0px 0px 0px 0px;
 }
