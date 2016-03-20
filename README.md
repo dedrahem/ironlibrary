@@ -40,3 +40,18 @@ if Book.count == 0
 end
 
 Images used in the database are stored in the image folder found at, rootpath/app/assets/images/imagefile.
+
+NEW edit 522pm
+![Alt text](/screenshots/ONE.png?raw=true)
+![Alt text](/screenshots/TWO.png?raw=true)
+![Alt text](/screenshots/THREE.png?raw=true)
+
+END of edit 522pm
+
+
+
+
+
+
+
+
