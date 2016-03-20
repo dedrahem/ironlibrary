@@ -1,5 +1,5 @@
 # ironlibrary
-# https://github.com/dedrahem/ironlibrary/blob/master/screenshots/ARRAYSmodel.jpg
+
 
 ![Alt text](/screenshots/ARRAYSmodel.jpg?raw=true)
 
